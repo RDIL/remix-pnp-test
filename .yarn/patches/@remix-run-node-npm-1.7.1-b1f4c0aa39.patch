@@ -1,0 +1,13 @@
+diff --git a/dist/upload/fileUploadHandler.js b/dist/upload/fileUploadHandler.js
+index c961da3331119dd463241da72d5129e4fea4bc3c..4f8d018113403495ae733924388164e9c8caa637 100644
+--- a/dist/upload/fileUploadHandler.js
++++ b/dist/upload/fileUploadHandler.js
+@@ -14,7 +14,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
+ 
+ var crypto = require('crypto');
+ var fs = require('fs');
+-var promises = require('fs/promises');
++var promises = require('fs').promises;
+ var os = require('os');
+ var path = require('path');
+ var stream = require('stream');

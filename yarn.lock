@@ -1744,7 +1744,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/node@npm:1.7.1, @remix-run/node@npm:^1.7.1":
+"@remix-run/node@npm:1.7.1":
   version: 1.7.1
   resolution: "@remix-run/node@npm:1.7.1"
   dependencies:
@@ -1758,6 +1758,23 @@ __metadata:
     source-map-support: "npm:^0.5.21"
     stream-slice: "npm:^0.1.2"
   checksum: 6544650da7841f0e079b3526d0ba236dd92214656bdbc5b07fe6fc5a0ca57f0592d2df01b18d8f5764cb6274c0e503c326cec48a58ee5389936fc6bef680cbb2
+  languageName: node
+  linkType: hard
+
+"@remix-run/node@patch:@remix-run/node@npm%3A1.7.1#~/.yarn/patches/@remix-run-node-npm-1.7.1-b1f4c0aa39.patch":
+  version: 1.7.1
+  resolution: "@remix-run/node@patch:@remix-run/node@npm%3A1.7.1#~/.yarn/patches/@remix-run-node-npm-1.7.1-b1f4c0aa39.patch::version=1.7.1&hash=3854f9"
+  dependencies:
+    "@remix-run/server-runtime": "npm:1.7.1"
+    "@remix-run/web-fetch": "npm:^4.1.3"
+    "@remix-run/web-file": "npm:^3.0.2"
+    "@remix-run/web-stream": "npm:^1.0.3"
+    "@web3-storage/multipart-parser": "npm:^1.0.0"
+    abort-controller: "npm:^3.0.0"
+    cookie-signature: "npm:^1.1.0"
+    source-map-support: "npm:^0.5.21"
+    stream-slice: "npm:^0.1.2"
+  checksum: 866bab9949f22e9fe6f7dee55b9cd2aef5f8890911c5ff093d091f1542d8cf132d0fc572256012157deeaf5a784bb012bb75b5bdbad1da129244d57c0899d3e9
   languageName: node
   linkType: hard
 
@@ -8292,7 +8309,7 @@ __metadata:
     "@remix-run/dev": "npm:^1.7.1"
     "@remix-run/eslint-config": "npm:^1.7.1"
     "@remix-run/express": "npm:^1.7.1"
-    "@remix-run/node": "npm:^1.7.1"
+    "@remix-run/node": "patch:@remix-run/node@npm%3A1.7.1#~/.yarn/patches/@remix-run-node-npm-1.7.1-b1f4c0aa39.patch"
     "@remix-run/react": "npm:^1.7.1"
     "@types/react": "npm:^18.0.15"
     "@types/react-dom": "npm:^18.0.6"
